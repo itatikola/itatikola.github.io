@@ -21,15 +21,14 @@
 title: Indira Tatikola
 email: itatikola3@gatech.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Indira and I'm studying computer science at the Georgia Institue of Technology.
+  Hi! I’m Indira and I’m studying computer science at the Georgia Institue of Technology. 
   My areas of interest are computer vision, graphics, and machine learning and their applications in social media.
-  I'm building this website to share my research, personal projects, opinions, interests, and more. 
   Feel free to reach out through any platform! Especially if you share my academic interests - I always
   am looking to work on cool projects and meet cool people. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://www.itatikola.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+url: https://itatikola.github.io # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: indiratatikola
 github_username:  itatikola
+instagram_username: itatikola
 
 # Build settings
 theme: minima
