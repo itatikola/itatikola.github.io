@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My areas of interest are computer vision, graphics, and machine learning and their applications in social media.
   Feel free to reach out through any platform! Especially if you share my academic interests - I always
   am looking to work on cool projects and meet cool people. 
-baseurl: '/_sites'
+baseurl: ''
 url: https://itatikola.github.io # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: indiratatikola
 github_username:  itatikola
