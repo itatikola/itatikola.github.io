@@ -1,3 +1,13 @@
 --- 
 --- 
-@import "main";
+
+/**
+For some reason, I need to include at least one css style before import minima
+*/
+img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+@import "minima";
