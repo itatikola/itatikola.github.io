@@ -46,7 +46,7 @@ ul, ol, dl, figure,
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: flex; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
 
@@ -57,7 +57,7 @@ main {
 img {
   width: 300px;
   float: left;
-  margin-right: 20px;
+  margin: 20px;
   border-radius: 30px;
 }
 
@@ -86,6 +86,7 @@ ul, ol {
 li {
   > ul,
   > ol {
+    margin-top: 10px;
     margin-bottom: 0;
   }
 }
@@ -97,6 +98,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  margin-top: 10px;
 }
 
 
@@ -176,13 +178,15 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
+.bubble {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
+  background-color: #f4f1f1; 
+  border-radius: 30px;
   @extend %clearfix;
 
   @include media-query($on-laptop) {

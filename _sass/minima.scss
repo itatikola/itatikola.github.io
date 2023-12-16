@@ -9,9 +9,9 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
-
+// white default color  #ede5e58b
 $text-color:       #000000 !default;
-$background-color: #ede5e58b !default;
+$background-color: #f8d2d2 !default;
 $brand-color:      #5491e1 !default;
 
 $grey-color:       #828282 !default;
@@ -21,7 +21,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    1000px !default;
+$content-width:    800px !default;
 
 $on-palm:          300px !default;
 $on-laptop:        1000px !default;

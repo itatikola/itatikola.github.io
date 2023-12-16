@@ -108,7 +108,7 @@
 .site-footer {
   // border-top: 1px solid $grey-color-light;
   background-color: #f8d2d2;
-  // padding: $spacing-unit 0;
+  padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -129,10 +129,9 @@
   @extend %clearfix;
 }
 
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+.text-col {
+  padding: 30px $spacing-unit / 2; 
+  font-size: $small-font-size;
 }
 
 .footer-col-1 {
@@ -177,7 +176,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: $spacing-unit;
   flex: 1;
 }
 
