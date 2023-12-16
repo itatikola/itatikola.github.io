@@ -1,4 +1,29 @@
 /**
+Home page
+*/
+.text-col {
+  padding: 30px $spacing-unit / 2; 
+  font-size: $small-font-size;
+}
+
+.container {
+  float: left; 
+}
+
+.container img {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.contact-list,
+.social-media-list {
+  
+  list-style: none;
+  margin-left: 30px;
+}
+
+
+/**
  * Site header
  */
 .site-header {
@@ -15,7 +40,7 @@
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
-  margin-bottom: 0;
+  margin-left: 20px;
   float: left;
 
   &,
@@ -116,22 +141,11 @@
   margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
-}
-
-.text-col {
-  padding: 30px $spacing-unit / 2; 
-  font-size: $small-font-size;
 }
 
 .footer-col-1 {

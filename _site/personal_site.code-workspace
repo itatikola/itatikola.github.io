@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "_includes"
+		},
+		{
+			"path": "_sass"
+		},
+		{
+			"path": "_layouts"
+		},
+		{
+			"path": "assets"
+		}
+	],
+	"settings": {}
+}
