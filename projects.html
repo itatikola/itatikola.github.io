@@ -2,14 +2,14 @@
 layout: default
 title: Projects
 ---
-<ul>
+<p style="margin-top:30px;">Below are some write-ups on my personal projects.</p>
+<p>Currently, I'm working on a project to develop some experience in database design.</p>
+<div>
     {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+    <div class="post-thumbnail">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p>{{ post.date | date_to_string: "ordinal", "US" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </div>
     {% endfor %}
-  </ul>
-<p>Project 1</p>
-<p>Project 2</p>
-<p>Project 3</p>
-<p>Project 4</p>
+</div>

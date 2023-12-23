@@ -1,5 +1,5 @@
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 10px; padding: 5px; }
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 10px; padding: 0px; }
 
 /** Basic styling */
 body { font: 300 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #000000; background-color: #f8d2d2; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; flex-direction: column; padding: 20px; }
@@ -52,7 +52,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .post-bubble { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin: auto; padding-top: 10px; background-color: #f4f1f1; border-radius: 30px; }
 @media screen and (max-width: 1000px) { .post-bubble { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
-.post-thumbnail { max-width: -webkit-calc(800px - (30px * 3)); max-width: calc(800px - (30px * 3)); margin: 20px; padding-top: 10px; background-color: #d8d5d5; border-radius: 30px; }
+.post-thumbnail { max-width: -webkit-calc(800px - (30px * 3)); max-width: calc(800px - (30px * 3)); margin: 20px; padding-top: 10px; background-color: #d8d5d5cd; border-radius: 30px; }
 @media screen and (max-width: 1000px) { .post-thumbnail { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Clearfix */
