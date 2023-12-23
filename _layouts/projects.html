@@ -1,0 +1,12 @@
+---
+layout: default
+title: Projects
+---
+<p>Below are a list of my projects!</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
