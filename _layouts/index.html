@@ -7,7 +7,7 @@ title: Home
     {%- include social.html -%}
 </div>
 <div class="text-col">
-    <p>{{ site.time | date_to_long_string}}</p>
+    <p>{{ site.time | date_to_string: "ordinal", "US" }}</p>
     <p>Hi! Thanks so much for stopping by.</p>
     <p>I'm a CS major at the Georgia Institute of Technology concentrating in 
         Intelligence and Systems & Architecture.

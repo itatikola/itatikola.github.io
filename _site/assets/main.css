@@ -27,8 +27,8 @@ li > ul, li > ol { margin-top: 10px; margin-bottom: 10px; }
 h1, h2, h3, h4, h5, h6 { font-weight: 300; margin-top: 10px; }
 
 /** Links */
-a { color: #5491e1; text-decoration: none; }
-a:visited { color: #2369c6; }
+a { color: #000000; text-decoration: none; /*&:visited { color: #434242;
+}*/ }
 a:hover { color: #000000; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }

@@ -9,6 +9,8 @@
 
     <main class="page-content" aria-label="Content">
       <div class="post-bubble">
+        <h1>{{ page.title }}</h1>
+        <p style="color:grey;">{{ page.date | date_to_string: "ordinal", "US" }}</p>
         {{ content }}
       </div>
     </main>
