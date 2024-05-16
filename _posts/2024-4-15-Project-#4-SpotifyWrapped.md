@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Project #4: Spotify Wrapped"
+excerpt_separator: <!--more-->
+---
+&nbsp;&nbsp;&nbsp;&nbsp; In my Objects & Design course this semester, we were challenged with creating a mimic Spotify Wrapped application. Our team of seven spent 2 months following an Agile Scrum to build this application on Android Studio. <!--more--> If I'm being honest, when I heard about this assignment I was a bit scared. It was definitely the largest group and longest-term project I had ever worked on. Knowing that there had to be timely deliverables and that all of our individual components relied on each other was daunting, especially when working with strangers. However, this experience was extremely rewarding and I am truly proud of the final product. 
+
+&nbsp;&nbsp;&nbsp;&nbsp; When you enter the application, you are prompted to log in. Our app uses Firebase to host a database of user account information. You can create a new account, delete that account, and go to your profile to view your past wrapped summaries. Once you've logged in to our app, you'll be redirected to log in to Spotify itself. From there, we get an access token to your account that we can use as our Spotify API key. 
+	
+&nbsp;&nbsp;&nbsp;&nbsp; Once you've logged in, you can begin viewing your wrapped summaries. All information is taken from a short term, recent time period. Your wrapped summaries from today may be much different from what they are next week. The first page is a summary of your top playlists, the second is of your top genres, and the final is of your top songs and artists. The final screen displays a succinct graphic encompassing all of this information which you can download to your device. 
+
+&nbsp;&nbsp;&nbsp;&nbsp; You'll notice that you are prompted to play a game. The game we created is a word search made of songs from the playlist of your choosing. You can even choose a difficulty level on a scale of 1 to 3!
+
+&nbsp;&nbsp;&nbsp;&nbsp; Building this entire application in Java on Android Studio was incredibly annoying, but me and the two other developers on my team rose to the challenge. Since running your app on Android Studio is incredibly time consuming and battery expensive, I learned a lot about making small, but significant changes to code. In general, I think my test and debug skills grew incredibly. Some aspects of our code that I'm proud of is the API Helper we created to easily extract information from the Spotify API and return it in a usable manner. This modularity allowed other members of the team who weren't familiar with using APIs to still contribute to the code and make a substantial impact. In the same vein, I learned how to handle merge conflicts on Git and I will never start working on a collaborative project without pulling from the remote repo ever again. 
+
+&nbsp;&nbsp;&nbsp;&nbsp; Finally, one aspect of this project I enjoyed was the creativity I got to express on the design front. It's got a little of my signature rounded buttons and such, but I did try to mimic the actual bold colors and fonts of the 2023 Spotify Wrapped and I think I was pretty successful! The project is up on my GitHub and I encourage anyone to take a look at the demo. Feel free to use our API Helper for your own applications, too.

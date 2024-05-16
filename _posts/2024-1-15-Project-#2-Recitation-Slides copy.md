@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Project #2: Recitation Slides"
+excerpt_separator: <!--more-->
+---
+&nbsp;&nbsp;&nbsp;&nbsp; One of my favorite experiences in college so far has been being a teaching assistant for the data structures and algorithms course at my school. This past semester, I spent many hours making 15 comprehensive slide decks for our weekly, TA-led recitation sections. <!--more--> This course is the largest course offered at Georgia Tech, and it runs heavily on the 50-60 TAs who work very hard to provide top-notch resources for students. Our team has created csvistool.com and endless exam preparation material. It's an inspiring group to be a part of, and so I was motivated to contribute something as well. 
+
+&nbsp;&nbsp;&nbsp;&nbsp; For years, the TAs have wondered why our course specifically has poor recitation enthusiasm among students. Many of our sections are cancelled or merged as the semester progresses because of low attendance, and this doesn't seem to happen as often in other courses. I noticed that our recitations lacked uniformity and quality assurance. In other courses, I've found a lot of my learning comes from the lab or studio associated with the course, led by TAs. Specifically, the slides are incredibly helpful as students are really good at simplifying content for their peers. I wanted to create the same system for our course. 
+	
+&nbsp;&nbsp;&nbsp;&nbsp; This semester, I set out to create a comprehensive set of slides for each week's recitation. Every slide covers two or three major concepts in our class (either a data structure or an algorithm) and uses the same format to explain each one. In the case of data structures, I try to first introduce the ADT the structure will implement, the motivation for why we would use this structure, and then the inner workings of three major operations: search, add, and remove. For algorithms, I first explain the problem goal or purpose of an algorithm, do a pseudocode analysis, and then perform a large diagramming example. After this, we talk about time complexity. Finally, the slides end with a couple coding questions for students to try on their own.  
+	
+&nbsp;&nbsp;&nbsp;&nbsp; These slides are made with the idea that students may reference them later without the help of a TA. Therefore, explanations and all the content must be present on the slides, but in a non-overwhelming and aesthetically pleasing (though this is just my preference) way. I think the common explanation structure helps organize the overwhelming amount of content for students so they "know what they have to know." In addition, I've peppered in prompting questions throughout the slides to increase interactivity. 
+
+&nbsp;&nbsp;&nbsp;&nbsp; The final collection is available on my public GitHub for computer science students anywhere to benefit from. Please reach out if you see errors! If they help even one person out there score an extra point on their exam, my time was well-spent :). 
