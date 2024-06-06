@@ -1,0 +1,25 @@
+https://api.instagram.com/oauth/authorize?client_id=1182296206103770&redirect_uri=https://itatikola.com/auth/&scope=user_profile,user_media&response_type=code
+
+AQDMXjveTYyNDH8F0Ae1BxfmAuOKcRUMXjzCPLo97mCNjoKHcqL49_i93Dz_iJ4acs8RjvRZXxea5VECf7qsHiaUIPPoU4QgclGEKyOtxAkfUB9twpnwsJ11PvjoU6oFKrRTTIYltLckxLSgzU9LcWiGP5lN3ZUkS_DEPAMwQNSUjIr7F9gZih4xElhoOV2Vd192aa5zEbN9pJjcfqYQ7-e0pHHKOx-SCKjwLbp1NX8Z6g
+curl -X POST \
+  https://api.instagram.com/oauth/access_token \
+  -F client_id=1182296206103770\
+  -F client_secret=710a59a6d09fae09b621a4e889c9185c\
+  -F grant_type=authorization_code \
+  -F redirect_uri=https://itatikola.com/auth/ \
+  -F code=AQDMXjveTYyNDH8F0Ae1BxfmAuOKcRUMXjzCPLo97mCNjoKHcqL49_i93Dz_iJ4acs8RjvRZXxea5VECf7qsHiaUIPPoU4QgclGEKyOtxAkfUB9twpnwsJ11PvjoU6oFKrRTTIYltLckxLSgzU9LcWiGP5lN3ZUkS_DEPAMwQNSUjIr7F9gZih4xElhoOV2Vd192aa5zEbN9pJjcfqYQ7-e0pHHKOx-SCKjwLbp1NX8Z6g
+
+returned:
+
+access_token: IGQWRQSExuaTNIamJWc1o5RVdQMVRiZAmpfb2hjMTUzS1hTRmNrTk14UlQ3REUwdlpVeFF3UHlfQTk5Q0lWOV9JUWZAWc3hickFwclN3THhfLTVQQXhBUzJuMHVENjRBSUZACajQtSE42SzJLa1RocW5CMHFSOEhXNDlmeDg4ZAW5ySlp0UQZDZD
+curl -X GET \
+  'https://graph.instagram.com/me/?fields=media&access_token=IGQWRQSExuaTNIamJWc1o5RVdQMVRiZAmpfb2hjMTUzS1hTRmNrTk14UlQ3REUwdlpVeFF3UHlfQTk5Q0lWOV9JUWZAWc3hickFwclN3THhfLTVQQXhBUzJuMHVENjRBSUZACajQtSE42SzJLa1RocW5CMHFSOEhXNDlmeDg4ZAW5ySlp0UQZDZD'
+
+
+
+curl -X GET \
+  'https://graph.instagram.com/17911116302843368?fields=media_type,caption,permalink,media_url&access_token=IGQWRQSExuaTNIamJWc1o5RVdQMVRiZAmpfb2hjMTUzS1hTRmNrTk14UlQ3REUwdlpVeFF3UHlfQTk5Q0lWOV9JUWZAWc3hickFwclN3THhfLTVQQXhBUzJuMHVENjRBSUZACajQtSE42SzJLa1RocW5CMHFSOEhXNDlmeDg4ZAW5ySlp0UQZDZD'
+
+
+
+17854567844935592
