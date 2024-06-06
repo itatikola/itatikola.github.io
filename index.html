@@ -1,24 +1,117 @@
----
-layout: default
-title: Home
----
-<div class="container">
-    <img style="margin-top: 30px;" src="assets/img/headshot.jpeg" alt="A picture of me!">
-    {%- include social.html -%}
-</div>
-<div class="text-col">
-    <p>Last Updated: {{ site.time | date_to_string: "ordinal", "US"}}</p>
-    <p>Hi! Thanks so much for stopping by.</p>
-    <p>I'm a CS major at the Georgia Institute of Technology concentrating in 
-        Intelligence and Systems & Architecture.
-    </p>
-    <p>I have a strong passion for making technology that makes our world 
-        more accessible and making technology more accessible for everyone in the world. 
-    </p>
-    <p>
-        Outside of CS, I love movies, I love fashion, and I have a love/hate relationship with running. 
-    </p>
-    <p>Click on the Projects tab to view some of my...projects!
-    </p>
-    <p>Feel free to reach out on my socials.</p>
-</div>
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Hi! My name is Indira Tatikola and I am a software engineer. This is my personal portfolio site." />
+        <title>Indira Tatikola</title>
+        <link href="styles/minima.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/6a36c605f0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="bubble" style="padding:0px 30px;">
+            <header class="site-header">
+                <a class="site-title" href="index.html">Indira Tatikola</a>
+                <nav class="site-nav">
+                    <div class="trigger">
+                        <a class="page-link" href="projects.html">Projects</a>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    
+        <div class="bubble" style="width:auto;">
+            <table class="main">
+                <tr>
+                    <td>
+                        <img src="/assets/img/headshot.jpeg" alt="My casual 'headshot' - also my LinkedIn/GitHub profile picture" />
+                        <ul class="social-media-list">
+                            <li>
+                                <a href="mailto:itatikola3@gatech.edu?subject=From-Website">
+                                    <i class="fa-solid fa-envelope" style="color:#828282; padding-right:5px;"></i> 
+                                    <span>Outlook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/indiratatikola">
+                                    <svg><use href="/assets/svg/minima-social-icons.svg#linkedin"></use></svg>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/itatikola">
+                                    <svg><use href="/assets/svg/minima-social-icons.svg#github"></use></svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/assets/files/resume.pdf">
+                                    <i class="fa-solid fa-file" style="color:#828282; padding-right:10px;"></i>
+                                    <span>Resume</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>Hi! Thanks so much for stopping by.</p>
+                        <p>I'm a CS major at the Georgia Institute of Technology concentrating in Intelligence and Systems & Architecture. </p>
+                        <p>I have a strong passion for making technology that makes our world more accessible and making technology more accessible for everyone in the world.</p>
+                        <p>Outside of CS, I love...</p>
+                        <ul>
+                            <li>movies</li>
+                            <li>fashion</li>
+                            <li>running (kind of)</li>
+                        </ul> 
+
+                        <p>Click on the Projects tab to view some of my...projects!</p>
+                        <p>Feel free to connect with me through any professional platform.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!--div class="bubble" id="experimentOne">
+            <h1>Number Guessing Game</h1>
+
+            <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+            <div class="form">
+                <label for="guessField">Enter a guess: </label>
+                <input type="number" min="1" max="100" required id="guessField" class="guessField">
+                <input type="submit" value="Submit guess" class="guessSubmit">
+            </div>
+
+            <div class="resultParas">
+                <p class="guesses"></p>
+                <p class="lastResult"></p>
+                <p class="lowOrHi"></p>
+            </div>
+        </div>
+
+        <div class="bubble" id="experimentTwo">
+            <h1>Silly Story</h1>
+
+            <div>
+                <label for="customname">Enter custom name:</label>
+                <input id="customname" type="text" placeholder="" />
+            </div>
+            <div>
+                <label for="us">US</label> <input id="us" type="radio" name="ukus" value="us" checked />
+                <label for="uk">UK</label> <input id="uk" type="radio" name="ukus" value="uk" />
+            </div>
+            <div>
+                <button class="randomize">Generate random story</button>
+            </div>
+
+            <p class="story"></p>
+        </div-->
+
+        <div class="bubble" id="Instagram">
+            <h1>Instagram</h1>
+
+            
+        </div>
+
+    <script defer src="/scripts/numberGame.js"></script>
+    <script defer src="/scripts/sillyStory.js"></script>
+</html>

@@ -1,17 +1,6 @@
----
-layout: default
-title: Projects
----
-<p style="margin-top:30px;">Below are some of my projects!</p>
-<p>I try to make something every month or two.</p>
-<div>
-    {% for post in site.posts %}
-    <a href="{{ post.url }}" style="color: grey; text-decoration: none;">
-      <div class="post-thumbnail">
-          <h2 style="color:black;">{{ post.title }}</h2>
-          <p>{{ post.date | date_to_string: "ordinal", "US" }}</p>
-          <p>{{ post.excerpt }}</p>
-      </div>
-    </a>  
-    {% endfor %}
-</div>
+<h1>Hello World.</h1>
+<p>This is the test page.</p>
+
+<a href="/index.html">
+    <button id="backButton">BACK</button>
+</a>
