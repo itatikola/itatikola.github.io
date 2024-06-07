@@ -47,7 +47,7 @@
         const projects = document.querySelector('.project-list');
         
         function addPost(href, title, date) {
-            var bubble = new PostBubble(href, title, date, "description");
+            var bubble = new PostBubble(href, title, date);
             projects.append(bubble.component); 
         }
         addPost('project-4-slides.html', 'Project #4: DSA Recitation Slides', '2024-5-2'); 

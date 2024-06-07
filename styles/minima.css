@@ -209,6 +209,10 @@ pre > code {
   color: rgb(174, 174, 174);
 }
 
+.post-thumbnail a:hover {
+  text-decoration: none;
+}
+
 
 
 /**
