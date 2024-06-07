@@ -56,6 +56,12 @@ img {
   border-radius: 30px;
 }
 
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /**
  * Figures
  */
@@ -173,23 +179,11 @@ pre > code {
 }
 
 /**
-.post-bubble {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - 30px * 2);
-  margin: auto;
-  padding-top: 10px;
-  background-color: #f4f1f1;
-  border-radius: 30px;
+ * Posts
+ */
+.post img{
+  justify-content: center;
 }
-@media screen and (max-width: 1000px) {
-  .post-bubble {
-    max-width: -webkit-calc(800px - (30px));
-    max-width: calc(800px - (30px));
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-*/
 
 /**
 * POST THUMBNAIL STYLING
@@ -692,8 +686,6 @@ table th {
 .highlight .il {
   color: #099;
 }
-
-/*# sourceMappingURL=minima.css.map */
 
 
 /**
