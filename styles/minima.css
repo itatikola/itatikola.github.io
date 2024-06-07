@@ -779,9 +779,6 @@ BOUNCING BALLS EXPERIMENT
 .bouncing-balls h1 {
   font-size: 2rem;
   letter-spacing: -1px;
-  position: absolute;
-  margin: 0;
-
   color: transparent;
   text-shadow: 0 0 4px #f8d2d2;
 }
