@@ -59,7 +59,7 @@ async function populate() {
 }  
 
 function populateHeader(obj) {
-    const header = document.querySelector("header");
+    const header = document.querySelector(".superhero").querySelector("header");
     const myH1 = document.createElement("h1");
     myH1.textContent = obj.squadName;
     header.appendChild(myH1);

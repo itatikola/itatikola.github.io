@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Indira Tatikola</title>
+        <link href="styles/minima.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/6a36c605f0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="bubble" style="padding:0px 30px;">
+            <header class="site-header">
+                <a class="site-title" href="index.html">Indira Tatikola</a>
+                <nav class="site-nav">
+                    <div class="trigger">
+                        <a class="page-link" href="projects.html">Projects</a>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <div class="bubble">
+            <p>Below are some of my projects!</p>
+            <p>I try to make something every month or two.</p>
+            
+            <div class="project-list">
+
+            </div>
+            <!--div>
+                {% for post in site.posts %}
+                <a href="{{ post.url }}" style="color: grey; text-decoration: none;">
+                  <div class="post-thumbnail">
+                      <h2 style="color:black;">{{ post.title }}</h2>
+                      <p>{{ post.date | date_to_string: "ordinal", "US" }}</p>
+                      <p>{{ post.excerpt }}</p>
+                  </div>
+                </a>  
+                {% endfor %}
+            </div-->
+        </div>
+    </body>
+
+    <script src="scripts/projects.js"></script>
+        
+    <script>
+        console.log('inner script');
+        const projects = document.querySelector('.project-list');
+        
+        function addPost(href, title, date) {
+            var bubble = new PostBubble(href, title, date, "description");
+            projects.append(bubble.component); 
+        }
+        addPost('project-4-slides.html', 'Project #4: DSA Recitation Slides', '2024-5-2'); 
+        addPost('project-3-wrapped.html', 'Project #3: Spotify Wrapped', '2024-4-21');
+        addPost('project-2-codegradr.html', 'Project #2: Codegradr', '2024-2-9');
+        addPost('project-1-site.html', 'Project #1: Personal Website', '2023-12-15');
+    </script>
+
+
+</html>
