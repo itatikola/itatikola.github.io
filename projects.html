@@ -44,12 +44,6 @@
         
     <script>
         console.log('inner script');
-        const projects = document.querySelector('.project-list');
-        
-        function addPost(href, title, date) {
-            var bubble = new PostBubble(href, title, date);
-            projects.append(bubble.component); 
-        }
         addPost('project-4-slides.html', 'Project #4: DSA Recitation Slides', '2024-5-2'); 
         addPost('project-3-wrapped.html', 'Project #3: Spotify Wrapped', '2024-4-21');
         addPost('project-2-codegradr.html', 'Project #2: Codegradr', '2024-2-9');

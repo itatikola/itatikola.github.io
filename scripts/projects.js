@@ -25,3 +25,9 @@ class PostBubble {
         link.append(postTitle, postDate, postExcerpt);
     }
 }
+
+function addPost(href, title, date) {
+    const projects = document.querySelector('.project-list');
+    var bubble = new PostBubble(href, title, date);
+    projects.append(bubble.component); 
+}
