@@ -784,3 +784,11 @@ BOUNCING BALLS EXPERIMENT
   color: transparent;
   text-shadow: 0 0 4px #f8d2d2;
 }
+
+/**
+SEND MESSAGE
+*/
+
+textarea, button {
+  margin: 10px;
+}

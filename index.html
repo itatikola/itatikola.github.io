@@ -76,8 +76,18 @@
         <script defer src="scripts/bouncingBalls.js"></script>
         <script defer src="scripts/asyncPractice.js"></script>
         <script defer src="scripts/alarmAPI.js"></script>
+        <script defer src="scripts/message.js"></script>
 
-        <div class="bubble" id="experimentOne">
+        <div class="bubble" style="display: flex; align-items: center; justify-content: center;" id="note">
+            <h1>Write me a message!</h1>
+            <form action="/" method="post" enctype="form-data" id="messageForm">
+                <textarea id="message" rows="2" cols="60" placeholder="Type here"></textarea>
+            </form>
+
+            <button type="submit" id="submitButton">Send</button>
+        </div>
+
+        <!--div class="bubble" id="experimentOne">
             <h1>Number Guessing Game</h1>
 
             <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
@@ -156,6 +166,6 @@
             </div>
             <button id="set-alarm">Set Alarm</button>
             <div id="output"></div>
-        </div>
+        </div-->
     </body>
 </html>
