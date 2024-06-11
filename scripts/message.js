@@ -1,6 +1,6 @@
-messageBox = document.getElementById('message');
+messageBox = document.getElementById('message')
+noteBubble = document.getElementById('noteBubble')
 
 window.onload = () => {
-    messageBox.focus();
     messageBox.value = ''; 
 }
