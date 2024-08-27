@@ -305,6 +305,7 @@ table th {
 .site-nav .page-link {
   color: #000000;
   line-height: 1.5;
+
 }
 .site-nav .page-link:not(:last-child) {
   margin-right: 20px;
@@ -347,7 +348,6 @@ table th {
   }
   .site-nav input:checked ~ .trigger {
     display: block;
-    padding-bottom: 5px;
   }
   .site-nav .page-link {
     display: block;
